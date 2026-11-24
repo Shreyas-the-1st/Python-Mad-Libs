@@ -34,4 +34,6 @@ country = raw_input("What is your favourite country? ")
 dessert = raw_input("What is your favourite sweet treat? ")
 year = raw_input("Give me a random year: ")
 
+#final output command
+print(STORY % (name, ad1, ad2, animal, food, verb, noun1, fruit, ad3, name, superhero, name, country, name, dessert, name, year, noun2))
 
