@@ -11,28 +11,28 @@ STORY = "This morning %s woke up feeling %s. 'It is going to be a %s day!' Outsi
 print ("MadLibs has started")
 
 #the hero's name ig, idk bro
-name = raw_input("What is your main Character's name? ")
+name = input("What is your main Character's name? ")
 
 #these are just to take up the adjectives for making up the story
-ad1 = raw_input("What is your choice for 1st adjective? ")
-ad2 = raw_input("What is your choice for 2nd adjective? ")
-ad3 = raw_input("What is your choice for 3rd adjective? ")
+ad1 = input("What is your choice for 1st adjective? ")
+ad2 = input("What is your choice for 2nd adjective? ")
+ad3 = input("What is your choice for 3rd adjective? ")
 
 #GIVE A VERB
-verb = raw_input("What is your choice for a verb? ")
+verb = input("What is your choice for a verb? ")
 
 #now it prompts me for nouns
-noun1 = raw_input("What is your choice for 1st noun? ")
-noun2 = raw_input("What is your choice for 2nd noun? ")
+noun1 = input("What is your choice for 1st noun? ")
+noun2 = input("What is your choice for 2nd noun? ")
 
 #now for the random assortment of thing
-animal = raw_input("What is your favourite animal? ")
-food = raw_input("What is your favourite thing to eat? ")
-fruit = raw_input("What is your favourite fruit? ")
-superhero = raw_input("What is your favourite superhero? ")
-country = raw_input("What is your favourite country? ")
-dessert = raw_input("What is your favourite sweet treat? ")
-year = raw_input("Give me a random year: ")
+animal = input("What is your favourite animal? ")
+food = input("What is your favourite thing to eat? ")
+fruit = input("What is your favourite fruit? ")
+superhero = input("What is your favourite superhero? ")
+country = input("What is your favourite country? ")
+dessert = input("What is your favourite sweet treat? ")
+year = input("Give me a random year: ")
 
 #final output command
 print(STORY % (name, ad1, ad2, animal, food, verb, noun1, fruit, ad3, name, superhero, name, country, name, dessert, name, year, noun2))
